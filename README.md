@@ -18,8 +18,8 @@ Projetar, segmentar e interligar as redes locais (LAN) de uma **Matriz** e de um
 | Segmento | Rede / Máscara | Dispositivo | Interface | Endereço IP | Gateway Padrão |
 | :--- | :--- | :--- | :--- | :--- | :--- |
 | **LAN Matriz** | `10.10.0.0/24` | Router-Matriz | GigabitEthernet0/0 | `10.10.0.1` | — |
-| **LAN Matriz** | `10.10.0.0/24` | PC-Matriz-1 | FastEthernet0 | `10.10.0.10` | `10.10.0.1` |
-| **LAN Matriz** | `10.10.0.0/24` | PC-Matriz-2 | FastEthernet0 | `10.10.0.11` | `10.10.0.1` |
+| **LAN Matriz** | `10.10.0.0/24` | PC-Matriz-1 | FastEthernet0 | `10.10.0.101` | `10.10.0.1` |
+| **LAN Matriz** | `10.10.0.0/24` | PC-Matriz-2 | FastEthernet0 | `10.10.0.100` | `10.10.0.1` |
 | **Link WAN** | `200.100.10.0/30` | Router-Matriz | Serial0/0/0 (DCE) | `200.100.10.1` | — |
 | **Link WAN** | `200.100.10.0/30` | Router-Filial | Serial0/0/0 | `200.100.10.2` | — |
 | **LAN Filial** | `10.10.1.0/24` | Router-Filial | GigabitEthernet0/0 | `10.10.1.1` | — |
