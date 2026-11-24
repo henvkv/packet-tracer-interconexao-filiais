@@ -24,6 +24,7 @@ Projetar, segmentar e interligar as redes locais (LAN) de uma **Matriz** e de um
 | **Link WAN** | `200.100.10.0/30` | Router-Filial | Serial0/0/0 | `200.100.10.2` | — |
 | **LAN Filial** | `10.10.1.0/24` | Router-Filial | GigabitEthernet0/0 | `10.10.1.1` | — |
 | **LAN Filial** | `10.10.1.0/24` | PC-Filial-1 | FastEthernet0 | `10.10.1.100` | `10.10.1.1` |
+| **LAN Filial** | `10.10.1.0/24` | PC-Filial-1 | FastEthernet0 | `10.10.1.101` | `10.10.1.1` |
 
 ## 🔀 Rotas Estáticas Configuradas
 * **Router-Matriz:** Destino `10.10.1.0` (Máscara `255.255.255.0`) ➡️ Next-Hop `200.100.10.2`
